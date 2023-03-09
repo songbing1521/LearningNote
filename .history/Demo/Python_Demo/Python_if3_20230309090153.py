@@ -31,8 +31,7 @@ b = float(input("请输入边长b："))
 c = float(input("请输入边长 c："))
 if a + b > c and a + c > b and c + b > a:
     circun = a + b + c
-    p = circun / 2
-    area = (p * (p - a) * (p - b) * (p - c))**0.5
+    area = (circun * (circun - a) * (circun - b) * (circun - c))**0.5
     print(f"所构成三角形的周长为{circun:.3f}，面积为{area:.3f}。")
 
 else:

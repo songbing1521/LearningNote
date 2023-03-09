@@ -9,8 +9,8 @@ f(x) =  x + 2   (-1 <= x <= 1)
 
 # if x > 1:
 #     y = 3*x-5
-# elif x >= -1 and x <= 1:
-
+# elif x >= -1 and x <= 1: 
+    
 #     y = x + 1
 # else:
 #     y = 5*x + 3
@@ -29,11 +29,5 @@ f(x) =  x + 2   (-1 <= x <= 1)
 a = float(input("请输入边长 a ："))
 b = float(input("请输入边长b："))
 c = float(input("请输入边长 c："))
-if a + b > c and a + c > b and c + b > a:
-    circun = a + b + c
-    p = circun / 2
-    area = (p * (p - a) * (p - b) * (p - c))**0.5
-    print(f"所构成三角形的周长为{circun:.3f}，面积为{area:.3f}。")
-
-else:
-    print("无法构成三角形")
+if a + b > c and a + c > b and c +b >a:
+    
