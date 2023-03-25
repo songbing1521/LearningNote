@@ -1,0 +1,1 @@
+list1 = ['orange', 'apple', 'zoo', 'internationalization', 'blueberry']
