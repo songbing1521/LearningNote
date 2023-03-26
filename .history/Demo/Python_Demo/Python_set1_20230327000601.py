@@ -19,10 +19,3 @@ if 4 in set2:
 print(set1, set2)
 print(set3.pop())
 print(set3)
-# 集合的成员、交集、并集、差集等运算
-print('集合的成员、交集、并集、差集等运算')
-print(set1 & set2)  
-print(set1 | set2)
-print(set1 - set2)
-print(set1 ^ set2)
-print(set2 <= set1)

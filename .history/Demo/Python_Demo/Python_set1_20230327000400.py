@@ -9,7 +9,6 @@ print(set2, set3)
 set4 = {num for num in range(1, 100) if num % 3 == 0 or num % 5 == 0}
 print(set4)
 # 向集合添加元素和从集合删除元素
-print(' 向集合添加元素和从集合删除元素')
 set1.add(4)
 set1.add(5)
 set2.update([11, 12])
@@ -19,10 +18,3 @@ if 4 in set2:
 print(set1, set2)
 print(set3.pop())
 print(set3)
-# 集合的成员、交集、并集、差集等运算
-print('集合的成员、交集、并集、差集等运算')
-print(set1 & set2)  
-print(set1 | set2)
-print(set1 - set2)
-print(set1 ^ set2)
-print(set2 <= set1)
