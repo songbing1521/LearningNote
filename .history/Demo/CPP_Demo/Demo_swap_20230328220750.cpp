@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void swap(int x, int y){//  x = a, y = b;
+void swap(int& x, int& y){//  x = a, y = b;
     x = x + y;
     y = x - y;
     x = x - y;
