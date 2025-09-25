@@ -7,7 +7,13 @@ print(list1)
 list1.extend([1000,2000])
 # 另一种写发
 # list1 += [1000,2000]
+pri# 另一种写发
+# list1 += [1000,2000]
 print(len(list1)
+if 3 in list1:
+    list1.remove(3)
+#根据值删除元素
+if 1nt(len(list1)
 if 3 in list1:
     list1.remove(3)
 #根据值删除元素

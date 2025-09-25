@@ -11,7 +11,13 @@ print(len(list1)
 if 3 in list1:
     list1.remove(3)
 #根据值删除元素
-if 1234 in list1:
+i# 另一种写发
+# list1 += [1000,2000]
+print(len(list1)
+if 3 in list1:
+    list1.remove(3)
+#根据值删除元素
+if 1f 1234 in list1:
     list1.remove(1234)
 print(list1)
 #从指定位置删除元素

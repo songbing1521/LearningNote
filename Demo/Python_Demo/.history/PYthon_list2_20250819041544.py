@@ -4,7 +4,7 @@ print(list1)
 list1.insert(1, 400)
 print(list1)
 #合并两个列表
-list1.extend([1000,2000])
+list1.eixtend([1000,2000])
 # 另一种写发
 # list1 += [1000,2000]
 print(len(list1)
